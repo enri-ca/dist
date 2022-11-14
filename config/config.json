@@ -1,6 +1,6 @@
  {
     "indexTitle": "Partizione Antica from Fototeca Supino: a pilot digital edition",
-    "webSite": "",
+    "webSite": "https://github.com/enri-ca/DTH_PA",
     "logoUrl": "",
     
     "dataUrl": "data/text/05_Group_nor.xml",
@@ -26,7 +26,7 @@
 
                 },
                 {
-"label": "READING_TEXT",
+			"label": "READING_TEXT",
             "icon": "reading-txt",
             "viewMode": "readingTxt",
             "visible": true
@@ -36,19 +36,19 @@
             "label": "TEXT_TEXT",
             "icon": "mode-txtTxt",
             "viewMode": "txtTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "MULTIPLE_RECENSIONS",
             "icon": "mode-versions",
             "viewMode": "versions",
-            "visible": true
+            "visible": false
         },
         {
             "label": "COLLATION",
             "icon": "mode-collation",
             "viewMode": "collation",
-            "visible": true
+            "visible": false
         },
         {
             "label": "SOURCE_TEXT",
@@ -60,7 +60,7 @@
             "label"    : "3DHOP",
             "icon"     : "mode-tdhop",
             "viewMode" : "tdhop",
-            "visible"  : false
+            "visible"  : true
         }
     ],
 
@@ -71,7 +71,7 @@
             "value": "critical",
             "label": "Critical",
             "title": "Critical edition",
-            "visible": true
+            "visible": false
         },
         {
             "value": "diplomatic",
@@ -87,7 +87,7 @@
         }
     ],
     
-    "showDocumentSelector": true,
+    "showDocumentSelector": false,
     "enableNavBar": true,
     "initNavBarOpened": true,
     "thumbnailsButton": false,
@@ -118,7 +118,7 @@
         {
             "tagName": "rolename",
             "label": "Role Name",
-            "available": true,
+            "available": false,
             "color": "#cfc"
         },
         {
@@ -134,7 +134,7 @@
             "color": "#ffecb3"
         },
         {
-            "tagName": "objectName",
+            "tagName": "object",
             "label": "Objects",
             "available": true,
             "color": "#ffd480"
@@ -189,7 +189,7 @@
     "showInlineAnalogues": false,
     "showReadingExponent": true,
 
-    "toolHeatMap": true,
+    "toolHeatMap": false,
 
     "versions": [
         "rec2",
