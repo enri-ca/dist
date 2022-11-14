@@ -60,7 +60,7 @@
             "label"    : "3DHOP",
             "icon"     : "mode-tdhop",
             "viewMode" : "tdhop",
-            "visible"  : true
+            "visible"  : false
         }
     ],
 
@@ -91,7 +91,7 @@
     "enableNavBar": true,
     "initNavBarOpened": true,
     "thumbnailsButton": false,
-    "viscollButton": true,
+    "viscollButton": false,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
