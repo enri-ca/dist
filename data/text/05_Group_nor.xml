@@ -21,7 +21,7 @@
             <!--distributor>Github</distributor-->
             <date>2022</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Project distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. All the images and the data are published for illustrating and didactical purposes only. For any request of use, please refer to: - images: Biblioteca delle Arti. Sezione di Arti visive "I. B. Supino"; - data: Fondazione Zeri</licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Project distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. <br>All the images and the data are published for illustrating and didactical purposes only. For any request of use, please refer to: - images: Biblioteca delle Arti. Sezione di Arti visive "I. B. Supino"; - data: Fondazione Zeri</licence>
 	    </availability>
          </publicationStmt>
          <!--sourceDesc o xi:include href="sourceDesc.xml"/-->
