@@ -92,10 +92,11 @@
             </listPerson>
             <listOrg>
                <head>Museums</head>
-               <org xml:id="AK_Museum">
+               <ul>
+		<li><org xml:id="AK_Museum">
                   <orgName>Akropolis Museum</orgName>
                   <orgName>Museum of Akropolis</orgName>
-               </org>
+		</org></li></ul>
                <org xml:id="AN_FI_Museum">
                   <orgName>Museum at Florence</orgName>
                </org>
@@ -120,7 +121,7 @@
                <org xml:id="PA_museum">
                   <orgName>Museo Palermo</orgName>
                </org>
-               <head>Collecions</head>
+               <head>Collections</head>
                <org xml:id="Aberdeen_coll">
                   <orgName>Collection of The Earl of Aberdeen</orgName>
                   <orgName>Lord Aberdeen's collection</orgName>
