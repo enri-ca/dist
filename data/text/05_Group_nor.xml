@@ -114,18 +114,19 @@
                </person>
             </listPerson>
             <listOrg>
-               
-               <org xml:id="AK_Museum">
+               <head>Cited Museums</head>
+               <ul>
+		<li><org xml:id="AK_Museum">
                   <orgName>Akropolis Museum</orgName>
                   <orgName>Museum of Akropolis</orgName>
-		</org><org xml:id="AN_FI_Museum">
+		</org></li></ul>
+               <org xml:id="AN_FI_Museum">
                   <orgName>Museum at Florence</orgName>
-		       </org>
+               </org>
                <org xml:id="Br_Museum">
                   <orgName>British Museum</orgName>
                </org>
-		       
-		<org xml:id="Corneto_Museum">
+               <org xml:id="Corneto_Museum">
                   <orgName>
                   Corneto. Museum</orgName>
                </org>
@@ -293,15 +294,12 @@
       <xenoData>
          <rdf:RDF>
             <!-- VISITED PLACES -->
-		 <head>Places</head>
-		 <ul>
-			 <li>
             <rdf:Description tei:ref="#Corneto" rdf:about="geonames:3165919"> 
                <rdf:type rdf:resource="dbo:Place"/>
                <rdfs:label xml:lang="it">Italia, Lazio - Tarquinia</rdfs:label>
-				 </rdf:Description></li><li>
+            </rdf:Description>
             <rdf:Description tei:ref="#Palermo" rdf:about="geonames:6542127"> 
-		    <rdf:type rdf:resource="dbo:Place"/></li></ul>
+               <rdf:type rdf:resource="dbo:Place"/>
                <rdfs:label xml:lang="it">Italia, Sicilia - Palermo</rdfs:label>
             </rdf:Description>
             <rdf:Description tei:ref="#Chiusi" rdf:about="geonames:6539740"> 
@@ -822,3 +820,4 @@
       </body>
    </text>
 </TEI>
+Footer
