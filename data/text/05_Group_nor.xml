@@ -115,19 +115,16 @@
             </listPerson>
             <listOrg>
                <head>Cited Museums</head>
-               <ul>
-		<li><org xml:id="AK_Museum">
+               <org xml:id="AK_Museum">
                   <orgName>Akropolis Museum</orgName>
                   <orgName>Museum of Akropolis</orgName>
-		</org></li>
-               <li><org xml:id="AN_FI_Museum">
+		</org><org xml:id="AN_FI_Museum">
                   <orgName>Museum at Florence</orgName>
-		       </org></li>
-	<li>
+		       </org>
                <org xml:id="Br_Museum">
                   <orgName>British Museum</orgName>
                </org>
-		       </li></ul>
+		       
 		<org xml:id="Corneto_Museum">
                   <orgName>
                   Corneto. Museum</orgName>
