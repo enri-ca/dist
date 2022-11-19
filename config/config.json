@@ -83,7 +83,7 @@
             "value": "interpretative",
             "label": "Interpretative",
             "title": "Interpretative edition",
-            "visible": true
+            "visible": false
         }
     ],
     
@@ -134,7 +134,7 @@
             "color": "#ffecb3"
         },
         {
-            "tagName": "object",
+            "tagName": "objectName",
             "label": "Objects",
             "available": true,
             "color": "#ffd480"
