@@ -119,14 +119,16 @@
 		<li><org xml:id="AK_Museum">
                   <orgName>Akropolis Museum</orgName>
                   <orgName>Museum of Akropolis</orgName>
-		</org></li></ul>
-               <org xml:id="AN_FI_Museum">
+		</org></li>
+               <li><org xml:id="AN_FI_Museum">
                   <orgName>Museum at Florence</orgName>
-               </org>
+		       </org></li>
+	<li>
                <org xml:id="Br_Museum">
                   <orgName>British Museum</orgName>
                </org>
-               <org xml:id="Corneto_Museum">
+		       </li></ul>
+		<org xml:id="Corneto_Museum">
                   <orgName>
                   Corneto. Museum</orgName>
                </org>
