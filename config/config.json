@@ -103,12 +103,12 @@
             "label": "Persons",
             "available": true
         },
-{
+	{
             "tagName": "placeName",
             "label": "Places",
             "available": true
         },
-		{
+	{
             "tagName": "orgName",
             "label": "Organizations",
             "available": true
@@ -127,11 +127,11 @@
             "available": true,
             "color": "#ddff99"
         },
-                 {
-            "tagName": "rs",
-            "label": "unnamed references",
+        {
+            "tagName": "date",
+            "label": "Dates",
             "available": true,
-            "color": "#ffecb3"
+            "color": "#9999ff"
         },
         {
             "tagName": "objectName",
@@ -139,13 +139,13 @@
             "available": true,
             "color": "#ffd480"
         },
-{
-            "tagName": "date",
-            "label": "Dates",
+	{
+	    "tagName": "rs",
+            "label": "Referring strings",
             "available": true,
-            "color": "#9999ff"
+            "color": "#ffecb3"
         },
-{
+	{
             "tagName": "measure",
             "label": "Measure",
             "available": false,
