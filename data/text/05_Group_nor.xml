@@ -84,10 +84,11 @@
              </sourceDesc-->
       </fileDesc>
       <!--profileDesc o xi:include href="ProfileDesc.xml"/-->
-      <profileDesc xmlns="">
+      <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="Kavvadias">
+               <head>Cited persons</head>
+		<person xml:id="Kavvadias">
                   <persName>Kavvadias</persName>
                </person>
                <person xml:id="Lechat">
@@ -113,7 +114,7 @@
                </person>
             </listPerson>
             <listOrg>
-               <head>Museums</head>
+               <head>Cited Museums</head>
                <ul>
 		<li><org xml:id="AK_Museum">
                   <orgName>Akropolis Museum</orgName>
@@ -151,7 +152,7 @@
                <org xml:id="Casuccini_coll">
                   <orgName>Casuccini collection</orgName>
                </org>
-               <head>Photographer</head>
+               <head>Cited Photographers</head>
                <org xml:id="Giraudon">
                   <orgName>A. GIRAUDON</orgName>
                   <orgName>A. G. phot.</orgName>
@@ -167,7 +168,7 @@
                   <orgName>G. Sommer - Napoli
                </orgName>
                </org>
-               <head>Other</head>
+               <head>Other organizations</head>
                <org xml:id="PA_gov">
                   <orgName>town of Palermo</orgName>
                </org>
@@ -176,6 +177,7 @@
                </org>
             </listOrg>
             <listObject>
+		<head>Mentioned objects (works of art)</head>
                <object xml:id="">
                   <objectName>Sphinx</objectName>
                </object>
