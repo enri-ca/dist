@@ -445,7 +445,7 @@
    </teiHeader>
    <text xml:id="Francia_077_sup2225_tx">
       <front>
-         <pb xml:id="sup2225_077_Francia" n="r" />
+         <pb xml:id="sup2225_077_Francia" n="r"/>
          <p>
             <lb facs="#facs_1_l_86" n="N001"/>
             <orgName ref="#Giraudon" type="photographer">A. GIRAUDON</orgName>
@@ -459,7 +459,7 @@
          </p>
 </front>
 <body>
-<pb xml:id="sup2225_077bis_Francia" n="v" />
+<pb xml:id="sup2225_077bis_Francia" n="v"/>
          <p>
             <lb facs="#facs_2_r_1_1l1" n="N001"/>
             <orgName ref="#Louvre" type="museum">Musée du Louvre</orgName>.
