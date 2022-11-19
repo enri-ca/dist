@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dbo="http://dbpedia.org/ontology/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:geonames="https://www.geonames.org/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:viaf="http://viaf.org/viaf/"
      xmlns:wikidata="https://www.wikidata.org/wiki/"
-     xmlns:xi="http://www.w3.org/2001/XInclude">
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+	 >
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,24 +18,23 @@
             <title>Fototeca Supino</title>
             <principal>Zani, Enrica</principal>
          </titleStmt>
-         <!--extent>14 recto-verso photographs</extent-->
+         <extent>14 recto-verso photographs</extent>
          <publicationStmt>
             <!--distributor>Github</distributor-->
             <date>2022</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Project distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. All the images and the data are published for illustrating and didactical purposes only. For any request of use, please refer to: - images: Biblioteca delle Arti. Sezione di Arti visive "I. B. Supino"; - data: Fondazione Zeri</licence>
-	    </availability>
+            </availability>
          </publicationStmt>
          <!--sourceDesc o xi:include href="sourceDesc.xml"/-->
          <sourceDesc>
             <listBibl>
                <bibl xml:id="Dennis">
                   <author><name>Dennis, George</name></author>
-                  <author><name>Wolters, Paul</name></author>
                   <title>Cities and Cemeteries of Etruria</title>
-                  <date>1878-1883</date>
-                  <ref target="http://digi.ub.uni-heidelberg.de/diglit/dennis1848bd2">Digitized version by Heidelberg Un.</ref>		<ref target="http://xml.coverpages.org/coombs.html">http://xml.coverpages.org/coombs.html</ref>
-               </bibl>
+                  <date>1848</date>
+                  <ref target="http://digi.ub.uni-heidelberg.de/diglit/dennis1848bd2">Digitized version by Heidelberg Un.</ref>
+			   </bibl>
                <bibl xml:id="Fr_Wolt">
                   <author><name>Friederichs, Carl</name></author>
                   <author><name>Wolters, Paul</name></author>
@@ -57,38 +58,15 @@
                   <ref target="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_939/0015">Digitized version by Heidelberg Un.</ref>
                </bibl>
             </listBibl>
-	    <msDesc>
-		 <msIdentifier>
-		  <settlement>Bologna</settlement>
-		  <repository>Biblioteca delle Arti. Sezione di Arti visive "I. B. Supino". Alma Mater Studiorum Università di Bologna</repository>
-		  </msIdentifier>
-		 <msContents>
-		  <msItem>
-		   <author>Supino, Igino Benvenuto</author>
-		   <title>Fototeca Supino - Partizione Antica</title>
-		  </msItem>
-		 </msContents>
-		 <physDesc>
-		  <objectDesc>
-		   <p>3260 albumen photographs collected and handritten annotated on the verso by an unknown Art Historian or Collector in the second half of the XIXth century.</p>
-		  </objectDesc>
-		 </physDesc>
-		<history>
-		  <p>For their peculiarity in the overall Supino fund, the 3260 photographs in the series called Partizione Antica, were transferred in 1990 to the Historical Archive of the University of Bologna, reorganized on a topographical basis, digitized and cataloged with the Sebina Multimedia software. In 2006 they rejoined the rest of the Fund at the Arts Department.</p>
-		<p>Between 2019 and 2020 the entire Partizione Antica series was cataloged by the Federico Zeri Foundation.</p>
-		<p>A sample of 14 recto-verso photographs is the object of this pilot digital edition.</p>
-		 </history>
-	     </msDesc>
          </sourceDesc>
          <!--bibl>Fototeca Supino</bibl>
              </sourceDesc-->
       </fileDesc>
       <!--profileDesc o xi:include href="ProfileDesc.xml"/-->
-      <profileDesc>
+      <profileDesc xmlns="">
          <particDesc>
             <listPerson>
-               <head>Cited persons</head>
-		<person xml:id="Kavvadias">
+               <person xml:id="Kavvadias">
                   <persName>Kavvadias</persName>
                </person>
                <person xml:id="Lechat">
@@ -114,12 +92,11 @@
                </person>
             </listPerson>
             <listOrg>
-               <head>Cited Museums</head>
-               <ul>
-		<li><org xml:id="AK_Museum">
+               <head>Museums</head>
+               <org xml:id="AK_Museum">
                   <orgName>Akropolis Museum</orgName>
                   <orgName>Museum of Akropolis</orgName>
-		</org></li></ul>
+               </org>
                <org xml:id="AN_FI_Museum">
                   <orgName>Museum at Florence</orgName>
                </org>
@@ -152,7 +129,7 @@
                <org xml:id="Casuccini_coll">
                   <orgName>Casuccini collection</orgName>
                </org>
-               <head>Cited Photographers</head>
+               <head>Photographer</head>
                <org xml:id="Giraudon">
                   <orgName>A. GIRAUDON</orgName>
                   <orgName>A. G. phot.</orgName>
@@ -168,7 +145,7 @@
                   <orgName>G. Sommer - Napoli
                </orgName>
                </org>
-               <head>Other organizations</head>
+               <head>Other</head>
                <org xml:id="PA_gov">
                   <orgName>town of Palermo</orgName>
                </org>
@@ -177,7 +154,6 @@
                </org>
             </listOrg>
             <listObject>
-		<head>Mentioned objects (works of art)</head>
                <object xml:id="">
                   <objectName>Sphinx</objectName>
                </object>
@@ -820,4 +796,3 @@
       </body>
    </text>
 </TEI>
-Footer
