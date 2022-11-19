@@ -296,12 +296,15 @@
       <xenoData>
          <rdf:RDF>
             <!-- VISITED PLACES -->
+		 <head>Places</head>
+		 <ul>
+			 <li>
             <rdf:Description tei:ref="#Corneto" rdf:about="geonames:3165919"> 
                <rdf:type rdf:resource="dbo:Place"/>
                <rdfs:label xml:lang="it">Italia, Lazio - Tarquinia</rdfs:label>
-            </rdf:Description>
+				 </rdf:Description></li><li>
             <rdf:Description tei:ref="#Palermo" rdf:about="geonames:6542127"> 
-               <rdf:type rdf:resource="dbo:Place"/>
+		    <rdf:type rdf:resource="dbo:Place"/></li></ul>
                <rdfs:label xml:lang="it">Italia, Sicilia - Palermo</rdfs:label>
             </rdf:Description>
             <rdf:Description tei:ref="#Chiusi" rdf:about="geonames:6539740"> 
