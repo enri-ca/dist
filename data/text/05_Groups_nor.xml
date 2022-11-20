@@ -444,7 +444,7 @@
       <!--/xenoData-->
    </teiHeader>
    <text xml:id="Francia_077_sup2225_tx">
-      <front>
+      <body>
          <pb xml:id="sup2225_077_Francia" n="r"/>
          <p>
             <lb facs="#facs_1_l_86" n="N001"/>
@@ -457,8 +457,6 @@
 				<lb facs="#facs_1_l_74" n="N003"/>
             <orgName ref="#Giraudon" type="photographer">A. G. phot.</orgName>
          </p>
-</front>
-<body>
 <pb xml:id="sup2225_077bis_Francia" n="v"/>
          <p>
             <lb facs="#facs_2_r_1_1l1" n="N001"/>
