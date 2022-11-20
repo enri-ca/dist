@@ -134,9 +134,6 @@
                <org xml:id="Louvre">
                   <orgName>Musée du Louvre</orgName>
                </org>
-               <org xml:id="NA_Museum">
-                  <orgName>Central Museum</orgName>
-               </org>
                <org xml:id="National_Museum_Athens">
                   <orgName>National Museum Athens.</orgName>
                </org>
@@ -383,7 +380,7 @@
                <rdf:type rdf:resource="dbo:museum"/>
                <rdfs:label xml:lang="it">Museo della Ceramica, Corneto</rdfs:label>
             </rdf:Description>
-            <rdf:Description tei:ref="#NA_Museum" rdf:about="wikidata:Q637187">
+            <rdf:Description tei:ref="#National_Museum_Athens" rdf:about="wikidata:Q637187">
                <rdf:type rdf:resource="dbo:museum"/>
                <rdfs:label xml:lang="en">National Archaeological Museum of Athens, Athens</rdfs:label>
             </rdf:Description>
@@ -444,8 +441,7 @@
       <!--/xenoData-->
    </teiHeader>
    <text xml:id="Francia_077_sup2225_tx">
-      <body>
-         <pb xml:id="sup2225_077_Francia" n="r"/>
+      <body>         <pb xml:id="sup2225_077_Francia" n="r" />
          <p>
             <lb facs="#facs_1_l_86" n="N001"/>
             <orgName ref="#Giraudon" type="photographer">A. GIRAUDON</orgName>
@@ -457,7 +453,8 @@
 				<lb facs="#facs_1_l_74" n="N003"/>
             <orgName ref="#Giraudon" type="photographer">A. G. phot.</orgName>
          </p>
-<pb xml:id="sup2225_077bis_Francia" n="v"/>
+
+<pb xml:id="sup2225_077bis_Francia" n="v" />
          <p>
             <lb facs="#facs_2_r_1_1l1" n="N001"/>
             <orgName ref="#Louvre" type="museum">Musée du Louvre</orgName>.
@@ -474,8 +471,7 @@
       </body>
    </text>
    <text xml:id="GBretagna_043_sup3003_tx">
-      <front>
-         <pb xml:id="sup3003_043_GrBretagna" n="r" />
+      <body>         <pb xml:id="sup3003_043_GrBretagna" n="r" />
          <p>
             <lb facs="#facs_1_r1l1" n="N001"/>
             <objectName ref="#OA_108716">HERMES</objectName>
@@ -487,8 +483,7 @@
             <lb facs="#facs_1_line_1668200611797_585" n="N001"/>
             <objectName ref="#negUNK_267">267</objectName>
          </p>
-</front>
-<body>
+
 <pb xml:id="sup3003_043bis_GrBretagna" n="v" />
          <p>
             <lb facs="#facs_2_r1l1" n="N001"/>
@@ -509,10 +504,8 @@
       </body>
    </text>
    <text xml:id="Grecia1_106_sup2470_tx">
-      <front>
-         <pb xml:id="sup2470_106_Grecia 1" n="r" />
-</front>
-<body>
+      <body>         <pb xml:id="sup2470_106_Grecia 1" n="r" />
+
 <pb xml:id="sup2470_106bis_Grecia 1" n="v" />
          <p>
             <lb facs="#facs_2_r1l1" n="N001"/>
@@ -551,16 +544,14 @@
       </body>
    </text>
    <text xml:id="Grecia2_012_sup2553_tx">
-      <front>
-         <pb xml:id="sup2553_012_Grecia2" n="r" />
+      <body>         <pb xml:id="sup2553_012_Grecia2" n="r" />
          <p>
             <lb facs="#facs_1_r_2_1l1" n="N001"/>
             <objectName ref="#OA_108368">Victory returns to her temple and takes off her sandals</objectName>. 
 				<lb facs="#facs_1_r_2_1l2" n="N002"/>
             <placeName ref="#Athens">Acropolis of Athens</placeName>. 
 			</p>
-</front>
-<body>
+
 <pb xml:id="sup2553_012bis_Grecia2" n="v" />
          <p>
             <lb facs="#facs_2_r_1_1l1" n="N001"/>
@@ -584,10 +575,8 @@
       </body>
    </text>
    <text xml:id="Grecia2_040_sup2581_tx">
-      <front>
-         <pb xml:id="sup2581_040_Grecia 2" n="r" />
-</front>
-<body>
+      <body>         <pb xml:id="sup2581_040_Grecia 2" n="r" />
+
 <pb xml:id="sup2581_040bis_Grecia 2" n="v" />
          <p>
             <lb facs="#facs_2_r1l1" n="N001"/>
@@ -608,8 +597,7 @@
       </body>
    </text>
    <text xml:id="Grecia3_011_sup2783_tx">
-      <front>
-         <pb xml:id="sup2783_011_Grecia3" n="r" />
+      <body>         <pb xml:id="sup2783_011_Grecia3" n="r" />
          <p>
             <lb facs="#facs_1_l_19" n="N001"/>
             <objectName ref="#negUNK_067">67</objectName>
@@ -617,8 +605,7 @@
          <p>
             <lb facs="#facs_1_l" n="N001"/>128 
 			</p>
-</front>
-<body>
+
 <pb xml:id="sup2783_011bis_Grecia3" n="v" />
          <p>
             <lb facs="#facs_2_r_1_1l1" n="N001"/>N°. 247. h. C
@@ -637,8 +624,7 @@
       </body>
    </text>
    <text xml:id="Grecia3_051_sup2832_tx">
-      <front>
-         <pb xml:id="sup2832_051_Grecia3" n="r" />
+      <body>         <pb xml:id="sup2832_051_Grecia3" n="r" />
          <p>
             <lb facs="#facs_1_line_1667941394445_570" n="N001"/>52
 			</p>
@@ -651,26 +637,25 @@
          <p>
             <lb facs="#facs_1_line_1667941203450_485" n="N001"/>26
 			</p>
-</front>
-<body>
+
 <pb xml:id="sup2832_051bis_Grecia3" n="v" />
          <p>
             <lb facs="#facs_2_r1l1" n="N001"/>
             <orgName ref="#National_Museum_Athens" type="museum">National Museum Athens.</orgName>
             <lb facs="#facs_2_r1l2" n="N002"/>
-            <ref>28</ref>. <objectName ref="#Sphinx_Spata">Archaic Sphinx from Spata</objectName> in Attica of Pentelic marble. 
+            28. <objectName ref="#Sphinx_Spata">Archaic Sphinx from Spata</objectName> in Attica of Pentelic marble. 
 				<lb facs="#facs_2_r1l3" n="N003"/>
-            <ref>76</ref>. <objectName ref="#Sphinx_Peiaios">Archaic Sphinx</objectName> found at the Peiraios in 1880. Parian marble. 
+            76. <objectName ref="#Sphinx_Peiaios">Archaic Sphinx</objectName> found at the Peiraios in 1880. Parian marble. 
 				<lb facs="#facs_2_r1l4" n="N004"/>
-            <ref>52</ref>. <objectName ref="#Head">Archaic head</objectName> of beautiful art. Pentelic marble.
+            52. <objectName ref="#Head">Archaic head</objectName> of beautiful art. Pentelic marble.
 				<lb facs="#facs_2_r1l5" n="N005"/>
-            <ref>93</ref>. <objectName ref="#Disk_Peiraios">Disk</objectName> of Parian marble found at the Peiraios in 1889. 11 inches in <choice>
+            93. <objectName ref="#Disk_Peiraios">Disk</objectName> of Parian marble found at the Peiraios in 1889. 11 inches in <choice>
                <expan>diameter</expan>
                <abbr>diam</abbr>
             </choice>.
 				<lb facs="#facs_2_r1l6" n="N006"/>The painting on it is <date notBefore="1889">now</date> almost effaced but once represented a <unclear reason="illegible">bearded</unclear>
             <lb facs="#facs_2_r1l7" n="N007"/>man with <cit>
-               <ref>an inscription saying: </ref>
+               an inscription saying: 
                <q>to the memory of Ainios, a wise and
 				<lb facs="#facs_2_r1l8" n="N008"/>good doctor</q>
             </cit>.
@@ -678,14 +663,12 @@
       </body>
    </text>
    <text xml:id="Lazio_015_sup0028_tx">
-      <front>
-         <pb xml:id="sup0028_015_Lazio" n="r" />
+      <body>         <pb xml:id="sup0028_015_Lazio" n="r" />
          <p>
             <lb facs="#facs_1_r1l1" n="N001"/>
             <lb facs="#facs_1_line_1668202001562_717" n="N002"/>
          </p>
-</front>
-<body>
+
 <pb xml:id="sup0028_015bis_Lazio" n="v" />
          <p>
             <lb facs="#facs_2_r1l1" n="N001"/>
@@ -699,10 +682,8 @@
       </body>
    </text>
    <text xml:id="Lazio_062_sup0218_tx">
-      <front>
-         <pb xml:id="sup0218_062_Lazio" n="r" />
-</front>
-<body>
+      <body>         <pb xml:id="sup0218_062_Lazio" n="r" />
+
 <pb xml:id="062bis_Lazio" n="v" />
          <p>
             <lb facs="#facs_2_l_91" n="N001"/>Court of Cardinal <objectName ref="#OA_106976">Vitelleschi's palace</objectName> at <placeName ref="#Taquinia">Corneto</placeName>. 
@@ -714,8 +695,7 @@
       </body>
    </text>
    <text xml:id="Sicilia_007_sup1351_tx">
-      <front>
-         <pb xml:id="sup1351_007_Sicilia" n="r" />
+      <body>         <pb xml:id="sup1351_007_Sicilia" n="r" />
          <p>
             <lb facs="#facs_1_line_1667759538519_323" n="N001"/>
             <objectName ref="#OA_107660">SARCOFAGO ETRUSCO</objectName>
@@ -725,8 +705,7 @@
             <orgName ref="#Incorpora" type="photographer">G. Incorpora, <placeName ref="#Palermo">Palermo</placeName>
             </orgName>
          </p>
-</front>
-<body>
+
 <pb xml:id="007bis_Sicilia" n="v" />
          <p>
             <lb facs="#facs_2_l_32" n="N001"/>
@@ -739,8 +718,7 @@
       </body>
    </text>
    <text xml:id="Sicilia_008_sup1352_tx">
-      <front>
-         <pb xml:id="sup 1352_g" n="r" />
+      <body>         <pb xml:id="sup 1352_g" n="r" />
          <p>
             <lb facs="#facs_1_line_1667767471372_1882" n="N001"/>
             <objectName ref="#negSommier_9072">9072</objectName>
@@ -751,8 +729,7 @@
             <orgName ref="#Sommer" type="photographer">G. Sommer - <placeName ref="#Napoli">Napoli</placeName>
             </orgName>
          </p>
-</front>
-<body>
+
 <pb xml:id="sup 1352v" n="v" />
          <p>
             <lb facs="#facs_2_r_2_1l1" n="N001"/>
@@ -783,8 +760,7 @@
       </body>
    </text>
    <text xml:id="Sicilia_024_sup1368_tx">
-      <front>
-         <pb xml:id="sup1368_024_Sicilia" n="r" />
+      <body>         <pb xml:id="sup1368_024_Sicilia" n="r" />
          <p>
             <lb facs="#facs_1_l" n="N001"/>
             <objectName ref="#negIncorpora_067">67</objectName>. - <placeName ref="#Palermo">PALERMO</placeName>
@@ -794,8 +770,7 @@
             <orgName ref="#Incorpora" type="photographer">G. INCORPORA, <placeName ref="#Palermo">PALERMO</placeName>
             </orgName>
          </p>
-</front>
-<body>
+
 <pb xml:id="024bis_Sicilia" n="v" />
          <p>
             <lb facs="#facs_2_r1l1" n="N001"/>
@@ -811,7 +786,7 @@
 				<lb facs="#facs_2_r1l5" n="N005"/>single headed eagle. 
 				<lb facs="#facs_2_line_1668199366974_463" n="N006"/>
             <cit>
-               <ref>An old, but contemporary inscription said:</ref>
+              An old, but contemporary inscription said:
                <q>
                   <lb facs="#facs_2_r1l7" n="N001"/>Caesaris Henrici latet hic Constantia corpus 
 				<lb facs="#facs_2_r1l8" n="N002"/>undeno lustro hac platea rugosa sacerdos 
@@ -834,8 +809,7 @@
       </body>
    </text>
    <text xml:id="Toscana2_084_sup1965_tx">
-      <front>
-         <pb xml:id="sup 1965_g" n="r" />
+      <body>         <pb xml:id="sup 1965_g" n="r" />
          <p>
             <lb facs="#facs_1_l_19" n="N001"/>
             <orgName ref="#Paganori" type="photographer">V. PAGANORI</orgName>
@@ -846,8 +820,7 @@
             <lb facs="#facs_1_l_31" n="N001"/>
             <objectName ref="#negPaganori_599">599</objectName>. 
 			</p>
-</front>
-<body>
+
 <pb xml:id="sup 1965v" n="v" />
          <p>
             <lb facs="#facs_2_r_1_1l1" n="N001"/>
@@ -866,10 +839,8 @@
       </body>
    </text>
    <text xml:id="Umbria_037_sup0661_tx">
-      <front>
-         <pb xml:id="sup661_037_Umbria" n="r" />
-</front>
-<body>
+      <body>         <pb xml:id="sup661_037_Umbria" n="r" />
+
 <pb xml:id="sup661_037bis_Umbria" n="v" />
          <p>
             <lb facs="#facs_2_r_1_1l1" n="N001"/>
