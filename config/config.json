@@ -3,7 +3,7 @@
     "webSite": "github.com/enri-ca/DTH_PA",
     "logoUrl": "",
     
-    "dataUrl": "data/text/05_Groups_nor.xml",
+    "dataUrl": "data/text/05_Groups_nor_Copy.xml",
     "sourcesUrl": "data/text/03_SourceDesc_nor.xml",
     "analoguesUrl": "",
     "sourcesTextsUrl": "",
@@ -251,7 +251,7 @@
         "showRotationControl": true,
         "showNavigator": true,
         "visibilityRatio": 1,
-        "defaultZoomLevel": 0.5,
+        "defaultZoomLevel": 0.8,
         "panHorizontal": true,
         "constrainDuringPan": true,
         "minZoomLevel": 0.7,
