@@ -577,10 +577,10 @@
 
 <pb xml:id="sup2553_012bis_Grecia2" n="v" />
 <div type="annotation">
-         <head>
-            <lb facs="#facs_2_r_1_1l1" n="N001"/>
-            <orgName ref="#AK_Museum" type="museum">Museum of Akropolis</orgName>. 
-				<lb facs="#facs_2_r_1_1l2" n="N002"/>From balustrade of <objectName ref="#NikeApteros_temple">temple of Nike Apteros</objectName>.
+         
+            <lb facs="#facs_2_r_1_1l1" n="N001"/><head>
+            <orgName ref="#AK_Museum" type="museum">Museum of Akropolis</orgName>. </head>
+				<lb facs="#facs_2_r_1_1l2" n="N002"/><head>From balustrade of <objectName ref="#NikeApteros_temple">temple of Nike Apteros</objectName>.
 			</head>
 			<p hand="later">
 				<lb facs="#facs_2_r_1_1l3" n="N003"/>
