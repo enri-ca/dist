@@ -251,7 +251,7 @@
         "showRotationControl": true,
         "showNavigator": true,
         "visibilityRatio": 1,
-        "defaultZoomLevel": 0.8,
+        "defaultZoomLevel": 0.75,
         "panHorizontal": true,
         "constrainDuringPan": true,
         "minZoomLevel": 0.7,
