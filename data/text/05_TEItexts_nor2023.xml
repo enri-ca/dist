@@ -919,7 +919,10 @@
 		</div>
       </body>
    </text>
-   
+
+
+#NEW 2023#
+
    	<text xml:id="sup0619_Toscana1_044_tx">
 		<body>
 			<pb xml:id='sup0619_Toscana1_044r' n='r'/>
@@ -929,7 +932,7 @@
 				<lb facs='#facs_2_line_1675892533817_357' n='N001'/><rs ref='#OA107656' type='object'>This fine monument</rs> of a doctor of laws is in terracotta. 
 				<lb facs='#facs_2_line_1675892544446_360' n='N002'/><rs ref='#RosselliAntonio' type='person'>He</rs> was born in 1381 and died in 1466. 
 				<lb facs='#facs_2_line_1675892554380_363' n='N003'/><rs ref='#PA_creator' type='person'>I</rs> have a <objectName ref='#medal_01-sup0619'>medal</objectName> of <rs ref='#RosselliAntonio' type='person'>him</rs> with the inscription: 
-				<lb facs='#facs_2_line_1675892560124_366' n='N004'/>&quot;<quote><persName ref='#RosselliAntonio'>Antonius de Royzellis</persName> monarcha sapientie.</quote>&quot;
+				<lb facs='#facs_2_line_1675892560124_366' n='N004'/>&quot;<q><persName ref='#RosselliAntonio'>Antonius de Royzellis</persName> monarcha sapientie.</q>&quot;
 			</p>
 		</div>
 		</body>
@@ -948,18 +951,18 @@
 			<pb xml:id='sup1748_Veneto_101v' n='v'/>
          <div type="annotation">
 			<p>
-				<lb facs='#facs_2_tr_1_tl_1' n='N001'/><quote>Monarcha sapientie <persName ref='#RosselliAntonio'>Antonius de Roycellis</persName> </quote>
-				<lb facs='#facs_2_tr_1_tl_2' n='N002'/><date month='12' year='0' when='1466' day='16'><quote>MCCCCLXVI Die XVI Decemb.</quote></date> 
-				<lb facs='#facs_2_tr_1_tl_3' n='N003'/><rs ref='#PA_creator' type='person'>I</rs> have <rs ref='#RosselliAntonio' type='person'>his</rs> <object ref='#medal_01-sup1748'>medal</object>. 
+				<lb facs='#facs_2_tr_1_tl_1' n='N001'/><q>Monarcha sapientie <persName ref='#RosselliAntonio'>Antonius de Roycellis</persName> </q>
+				<lb facs='#facs_2_tr_1_tl_2' n='N002'/><date month='12' year='0' when='1466' day='16'><q>MCCCCLXVI Die XVI Decemb.</q></date> 
+				<lb facs='#facs_2_tr_1_tl_3' n='N003'/><rs ref='#PA_creator' type='person'>I</rs> have <rs ref='#RosselliAntonio' type='person'>his</rs> <rs type="object" ref='#medal_01-sup1748'>medal</rs>. 
 			</p>
 		</div>
 		</body>
 	</text>
 
-	<text xml:id="sup1881_Veneto_165_tx">
+	<text xml:id="sup1811_Veneto_165_tx">
 		<body>
-			<pb xml:id='sup1881_Veneto_165r.jpg' n='r'/>
-			<pb xml:id='sup1881_Veneto_165v.jpg' n='v'/>
+			<pb xml:id='sup1811_Veneto_165r' n='r'/>
+			<pb xml:id='sup1811_Veneto_165v' n='v'/>
 			 <div type="annotation">
 			<p>
 				<lb facs='#facs_2_tr_2_tl_1' n='N001'/>Agrippa.
@@ -991,8 +994,8 @@
 			<pb xml:id='sup2193_Francia_045' n='v'/>
 			 <div type="annotation">
 			<p>
-				<lb facs='#facs_2_tr_1_tl_1' n='N001'/>Found near <placeName ref='#Frascati'>Frascati</placeName>, then went from <object ref='#VillaMondragone'>Villa Mondragone</object> to <object ref='#PalazzoBorgese'>Palazzo </object>
-				<lb facs='#facs_2_tr_1_tl_2' n='N002'/><object ref='#PalazzoBorgese'>Borghese</object> thence in <date month='0' year='0' when='1808' day='0'>1808</date> to the <orgName ref='#Louvre' type='museum'>Louvre</orgName>. 
+				<lb facs='#facs_2_tr_1_tl_1' n='N001'/>Found near <placeName ref='#Frascati'>Frascati</placeName>, then went from <objectName ref='#VillaMondragone'>Villa Mondragone</objectName> to <objectName ref='#PalazzoBorgese'>Palazzo </objectName>
+				<lb facs='#facs_2_tr_1_tl_2' n='N002'/><objectName ref='#PalazzoBorgese'>Borghese</objectName> thence in <date month='0' year='0' when='1808' day='0'>1808</date> to the <orgName ref='#Louvre' type='museum'>Louvre</orgName>. 
 				<lb facs='#facs_2_tr_1_tl_3' n='N003'/>The eyes were inserted and the lashes were copper and round 
 				<lb facs='#facs_2_tr_1_tl_4' n='N004'/>the head there was an ivy wreath of bronze or copper. 
 				<lb facs='#facs_2_tr_1_tl_5' n='N005'/>The head was greatly admired by <persName ref='#Winckelmann'>Winckelmann</persName> and is thought 
