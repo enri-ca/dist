@@ -289,11 +289,11 @@
       <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
          <rdf:RDF>
 		<!-- PLACES -->
-            <rdf:Description tei:ref="#Athens" rdf:about="geonames:264371">
+            <rdf:Description ref="#Athens" rdf:about="geonames:264371">
                <rdf:type rdf:resource="dbo:Place"/>
                <rdfs:label xml:lang="en">Greece - Athens</rdfs:label>
             </rdf:Description>
-            <rdf:Description tei:ref="#Olympia" rdf:about="geonames:9293812">
+            <rdf:Description ref="#Olympia" rdf:about="geonames:9293812">
                <rdf:type rdf:resource="dbo:Place"/>
                <rdfs:label xml:lang="en">Greece - Olympia</rdfs:label>
             </rdf:Description>
@@ -982,16 +982,16 @@
 
 	<text xml:id="sup2193_Francia_045_tx">
 		<body>
-			<pb xml:id='sup2193_Francia_045' n='r'/>
+			<pb xml:id='sup2193_Francia_045r' n='r'/>
 			<div type="recto">        
-					<div type="caption">
+			<div type="caption">
 			<p>
 				<lb facs='#facs_1_tr_1_tl_1' n='N001'/>354 - Epoque romaine - Atinous (Louvre)
 				<lb facs='#facs_1_line_1676881635684_284' n='N002'/>A. G. phot.
 			</p>
-</div>
-</div>
-			<pb xml:id='sup2193_Francia_045' n='v'/>
+			</div>
+			</div>
+			<pb xml:id='sup2193_Francia_045v' n='v'/>
 			 <div type="annotation">
 			<p>
 				<lb facs='#facs_2_tr_1_tl_1' n='N001'/>Found near <placeName ref='#Frascati'>Frascati</placeName>, then went from <objectName ref='#VillaMondragone'>Villa Mondragone</objectName> to <objectName ref='#PalazzoBorgese'>Palazzo </objectName>
