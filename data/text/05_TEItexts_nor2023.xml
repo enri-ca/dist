@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dbo="http://dbpedia.org/ontology/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -308,10 +309,7 @@
          </projectDesc>
       </encodingDesc>
       <!--xenoData xi:include href="04_xenoData.xml"/-->
-      <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-				xmlns:tei="http://www.tei-c.org/ns/1.0"
-				xmlns:dbo="http://dbpedia.org/ontology/"
-				xmlns:geonames="https://www.geonames.org/">
+      <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
          <rdf:RDF>
 		<!-- PLACES -->
             <rdf:Description ref="#Athens" rdf:about="geonames:264371">
