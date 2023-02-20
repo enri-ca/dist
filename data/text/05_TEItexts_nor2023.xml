@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-	xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dbo="http://dbpedia.org/ontology/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -25,7 +24,7 @@
             </availability>
          </publicationStmt>
          <!--sourceDesc o xi:include href="sourceDesc.xml"/-->
-         <sourceDesc xmlns="">
+         <sourceDesc>
             <listBibl>
                <bibl xml:id="Dennis">
                   <author>
@@ -85,7 +84,7 @@
          <!--/sourceDesc-->
       </fileDesc>
       <!--profileDesc o xi:include href="ProfileDesc.xml"/-->
-      <profileDesc xmlns="">
+      <profileDesc>
          <particDesc>
             <listPerson>
                <head>Persons</head>
@@ -132,7 +131,6 @@
 				 <person xml:id="Lenormant" sameAs="viaf:71523229">
 					<persName>Lenormant, François</persName>
 				 </person>
-
             </listPerson>
             <listOrg>
                <head>Museums</head>
