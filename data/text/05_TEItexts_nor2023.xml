@@ -112,6 +112,20 @@
                <person xml:id="Wolters">
                   <persName>Wolters</persName>
                </person>
+				<person xml:id="Winkelmann" sameAs="viaf:64019631">
+				<persName>Winckelmann, Johann Joachim</persName>
+				 </person>
+				 </person>
+				 <person xml:id="Furtwangler" sameAs="viaf:27192862">
+					<persName>Furtwängler, Johann Michael Adolf</persName>
+				 </person>
+				 <person xml:id="RosselliAntonio" sameAs="viaf:69286710">
+					<persName>Rosselli, Antonio</persName>
+				 </person>
+				 <person xml:id="Lenormant" sameAs="viaf:71523229">
+					<persName>Lenormant, François</persName>
+				 </person>
+
             </listPerson>
             <listOrg>
                <head>Museums</head>
@@ -248,33 +262,41 @@
          <settingDesc>
             <listPlace>
                <head>Places</head>
-               <place xml:id="Assisi">
-                  <placeName>Assisi</placeName>
+         <place xml:id="Assisi" sameAs="geonames:6538612">
+            <placeName>Assisi</placeName>
+         </place>
+         <place xml:id="Athens" sameAs="geonames:264371">
+             <placeName>Athens</placeName>
+         </place>
+         <place xml:id="Chiusi" sameAs="geonames:6539740">
+            <placeName>Chiusi</placeName>
+         </place>
+         <place xml:id="Delos" sameAs="geonames:11995092">
+            <placeName>Delos</placeName>
+         </place>
+         <place xml:id="Napoli" sameAs="geonames:3172394">
+            <placeName>Naples</placeName>
+         </place>
+         <place xml:id="Olympia" sameAs="geonames:9293812">
+            <placeName>Olympia</placeName>
+         </place>
+         <place xml:id="Palermo" sameAs="geonames:6542127">
+            <placeName>Palermo</placeName>
+         </place>
+         <place xml:id="Rome" sameAs="geonames:3169071">
+            <placeName>Rome</placeName>
+         </place>
+         <place xml:id="Taquinia" sameAs="geonames:3165919">
+            <placeName>Corneto</placeName>
+         </place>
+         <place xml:id="Venezia" sameAs="geonames:3164603">
+            <placeName>Venice</placeName>
+         </place>
+
+			   <place xml:id="Paestum">
+                  <placeName>Paestum</placeName>
                </place>
-               <place xml:id="Athens">
-                  <placeName>Athens</placeName>
-               </place>
-               <place xml:id="Chiusi">
-                  <placeName>Chiusi</placeName>
-               </place>
-               <place xml:id="Delos">
-                  <placeName>Delos</placeName>
-               </place>
-               <place xml:id="Napoli">
-                  <placeName>Napoli</placeName>
-               </place>
-               <place xml:id="Olympia">
-                  <placeName>Olympia</placeName>
-               </place>
-               <place xml:id="Palermo">
-                  <placeName>Palermo</placeName>
-               </place>
-               <place xml:id="Rome">
-                  <placeName>Rome</placeName>
-               </place>
-               <place xml:id="Taquinia">
-                  <placeName>Corneto</placeName>
-               </place>
+
             </listPlace>
          </settingDesc>
       </profileDesc>
@@ -286,7 +308,10 @@
          </projectDesc>
       </encodingDesc>
       <!--xenoData xi:include href="04_xenoData.xml"/-->
-      <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:tei="http://www.tei-c.org/ns/1.0"
+				xmlns:dbo="http://dbpedia.org/ontology/"
+				xmlns:geonames="https://www.geonames.org/">
          <rdf:RDF>
 		<!-- PLACES -->
             <rdf:Description ref="#Athens" rdf:about="geonames:264371">
@@ -350,6 +375,22 @@
                <rdf:type rdf:resource="foaf:Person"/>
                <rdfs:label xml:lang="en">Wolters, Paul (1858-1936)</rdfs:label>
             </rdf:Description>
+						<rdf:Description tei:ref="#Winkelmann" rdf:about="viaf:64019631"> 
+              <rdf:type rdf:resource="foaf:Person"/>
+              <rdfs:label xml:lang="en">Winckelmann, Johann Joachim</rdfs:label>
+			</rdf:Description>			
+			<rdf:Description tei:ref="#Furtwangler" rdf:about="viaf:27192862"> 
+              <rdf:type rdf:resource="foaf:Person"/>
+              <rdfs:label xml:lang="en">Furtwängler, Johann Michael Adolf</rdfs:label>
+			</rdf:Description>			
+			<rdf:Description tei:ref="#RosselliAntonio" rdf:about="viaf:69286710"> 
+              <rdf:type rdf:resource="foaf:Person"/>
+              <rdfs:label xml:lang="it">Rosselli, Antonio</rdfs:label>
+			</rdf:Description>	
+			<rdf:Description tei:ref="#Lenormant" rdf:about="viaf:71523229"> 
+              <rdf:type rdf:resource="foaf:Person"/>
+              <rdfs:label xml:lang="it">Lenormant, François</rdfs:label>
+			</rdf:Description>	
             <!-- ORG -->
             <rdf:Description tei:ref="#CasucciniColl"
                              rdf:source="https://it.wikipedia.org/wiki/Museo_archeologico_regionale_Antonino_Salinas#Collezione_Casuccini">
@@ -1005,4 +1046,22 @@
 			</div>
 		</body>
 	</text>
+	
+		<text xml:id='sup1009_Campania_015_tx'>
+		<body>
+			<pb xml:id='sup1009_Campania_015r' n='2'/>
+			<pb xml:id='sup1009_Campania_015v' n='3'/>
+			<p>
+				<lb facs='#facs_2_line_1676900621161_490' n='N001'/><objectName ref='#OA_106516'>Porta della Sirena</objectName>. <placeName ref='#Paestum'>Pastum</placeName> 
+			</p>
+			<p>
+				<lb facs='#facs_2_line_1676901627337_627' n='N001'/><persName ref='#Lenormant'>Lenormant</persName> thinks the walls, and certainly the gate with the Nereid <foreign lang='fr'>à <sic>queu</sic> de poisson</foreign> of second half 
+				<lb facs='#facs_2_line_1676901635000_630' n='N002'/>of 4.th century, or later stile, of Alexander of Epirus&apos; time. <rs ref='#PA_creator' type='person'>I</rs> doubt that the arch is so old. 
+			</p>
+		</body>
+	</text>
+
+	
+	
+	
 </TEI>
