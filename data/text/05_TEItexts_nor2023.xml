@@ -88,10 +88,10 @@
          <particDesc>
             <listPerson>
                <head>Persons</head>
-		<person xml:id="#Grimani_Cardinal">
+		<person xml:id="Grimani_Cardinal">
             <persName>Cardinal Grimani</persName>
          </person>
-         <person xml:id="#Grimani_Countess">
+         <person xml:id="Grimani_Countess">
             <persName>Maria Grimani Giustinian</persName>
          </person> 
 		 <person xml:id="Kavvadias" sameAs="viaf:46808673">
