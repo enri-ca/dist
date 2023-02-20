@@ -286,7 +286,7 @@
          </projectDesc>
       </encodingDesc>
       <!--xenoData xi:include href="04_xenoData.xml"/-->
-      <xenoData xmlns="">
+      <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
          <rdf:RDF>
 		<!-- PLACES -->
             <rdf:Description tei:ref="#Athens" rdf:about="geonames:264371">
@@ -958,8 +958,8 @@
 
 	<text xml:id="sup1881_Veneto_165_tx">
 		<body>
-			<pb xml:id='sup1881_Veneto_165r' n='r'/>
-			<pb xml:id='sup1881_Veneto_165v' n='v'/>
+			<pb xml:id='sup1881_Veneto_165r.jpg' n='r'/>
+			<pb xml:id='sup1881_Veneto_165v.jpg' n='v'/>
 			 <div type="annotation">
 			<p>
 				<lb facs='#facs_2_tr_2_tl_1' n='N001'/>Agrippa.
