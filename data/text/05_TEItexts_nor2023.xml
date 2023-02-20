@@ -89,31 +89,37 @@
          <particDesc>
             <listPerson>
                <head>Persons</head>
-               <person xml:id="Kavvadias">
-                  <persName>Kavvadias</persName>
-               </person>
-               <person xml:id="Lechat">
-                  <persName>Lechat</persName>
-               </person>
-               <person xml:id="PA_creator">
-                  <persName>I</persName>
-               </person>
-               <person xml:id="Perkins">
-                  <persName>Mr. Perkins</persName>
-               </person>
-               <person xml:id="Schliemann">
-                  <persName>Schliemann</persName>
-               </person>
-               <person xml:id="Sellers">
-                  <persName>Miss Sellers</persName>
-               </person>
-               <person xml:id="Stuart">
-                  <persName>Stuart</persName>
-               </person>
-               <person xml:id="Wolters">
-                  <persName>Wolters</persName>
-               </person>
-				<person xml:id="Winkelmann" sameAs="viaf:64019631">
+		<person xml:id="#Grimani_Cardinal">
+            <persName>Cardinal Grimani</persName>
+         </person>
+         <person xml:id="#Grimani_Countess">
+            <persName>Maria Grimani Giustinian</persName>
+         </person> 
+		 <person xml:id="Kavvadias" sameAs="viaf:46808673">
+            <persName>Kavvadias, Panagiotis</persName>
+         </person>
+         <person xml:id="Lechat">
+            <persName>Lechat</persName>
+         </person>
+         <person xml:id="PA_creator">
+            <persName>I</persName>
+         </person>
+         <person xml:id="Perkins" sameAs="viaf:8130001">
+            <persName>Perkins, Charles Callahan</persName>
+         </person>
+         <person xml:id="Schliemann" sameAs="viaf:17229333">
+            <persName>Schliemann, Heinrich</persName>
+         </person>
+         <person xml:id="Sellers" sameAs="viaf:79104263">
+            <persName>Strong, Eugénie Sellers</persName>
+         </person>
+         <person xml:id="Stuart" sameAs="viaf:44317198">
+            <persName>Stuart, James</persName>
+         </person>
+         <person xml:id="Wolters" sameAs="viaf:74226426">
+            <persName>Wolters, Paul</persName>
+         </person>
+		<person xml:id="Winkelmann" sameAs="viaf:64019631">
 				<persName>Winckelmann, Johann Joachim</persName>
 				 </person>
 				 </person>
@@ -304,8 +310,7 @@
       <!--/profileDesc-->
       <encodingDesc>
          <projectDesc>
-            <p>A sample of 14 photographs over the more than 3000 of the Partizione Antica, has been used to try to face an high challenging
-                      material to encode as works of art photographs annotated on their verso by an unknown art historian.</p>
+            <p>A sample of 20 photographs over the more than 3000 of the Partizione Antica, has been used to try to face an high challenging material to encode as works of art photographs annotated on their verso by an unknown art historian.</p>
          </projectDesc>
       </encodingDesc>
       <!--xenoData xi:include href="04_xenoData.xml"/-->
@@ -1049,6 +1054,7 @@
 		<body>
 			<pb xml:id='sup1009_Campania_015r' n='2'/>
 			<pb xml:id='sup1009_Campania_015v' n='3'/>
+			 <div type="annotation">
 			<p>
 				<lb facs='#facs_2_line_1676900621161_490' n='N001'/><objectName ref='#OA_106516'>Porta della Sirena</objectName>. <placeName ref='#Paestum'>Pastum</placeName> 
 			</p>
@@ -1056,10 +1062,28 @@
 				<lb facs='#facs_2_line_1676901627337_627' n='N001'/><persName ref='#Lenormant'>Lenormant</persName> thinks the walls, and certainly the gate with the Nereid <foreign lang='fr'>à <sic>queu</sic> de poisson</foreign> of second half 
 				<lb facs='#facs_2_line_1676901635000_630' n='N002'/>of 4.th century, or later stile, of Alexander of Epirus&apos; time. <rs ref='#PA_creator' type='person'>I</rs> doubt that the arch is so old. 
 			</p>
+			</div>
 		</body>
 	</text>
 
-	
-	
-	
+	<text xml:id='sup1967_Toscana2_085_tx.jpg'>
+		<body>
+			<pb xml:id='sup1967_Toscana2_085r' n='r'/>
+			<div type="recto">        
+			<div type="caption">
+			<p>
+				<lb facs='#facs_1_line_1676904900121_720' n='N001'/>(Ed. <orgName ref='#Alinari' type='photographer'>Alinari</orgName>) P. L. N. 3450 <placeName ref='#Firenze'>Firenze</placeName> - <orgName type='museum'>R. Museo archeologico</orgName>. Sezione Etrusca. Sala delle sculture
+			</p>
+			</div>			
+			</div>
+			<pb xml:id='sup1967_Toscana2_085v' n='v'/>
+			 <div type="annotation">
+			<p>
+				<lb facs='#facs_2_line_1676904996653_751' n='N001'/>The painted lady came from <placeName ref='#Chiusi'>Chiusi</placeName>; the great tufo sarc. from <placeName ref='#Orvieto'>Orvieto</placeName>. 
+			</p>
+			</div>
+
+		</body>
+	</text>
+
 </TEI>
