@@ -24,7 +24,7 @@
             </availability>
          </publicationStmt>
          <!--sourceDesc o xi:include href="sourceDesc.xml"/-->
-         <sourceDesc>
+         <sourceDesc xmlns="">
             <listBibl>
                <bibl xml:id="Dennis">
                   <author>
@@ -84,7 +84,7 @@
          <!--/sourceDesc-->
       </fileDesc>
       <!--profileDesc o xi:include href="ProfileDesc.xml"/-->
-      <profileDesc>
+      <profileDesc xmlns="">
          <particDesc>
             <listPerson>
                <head>Persons</head>
