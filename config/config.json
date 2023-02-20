@@ -3,8 +3,8 @@
     "webSite": "github.com/enri-ca/DTH_PA",
     "logoUrl": "",
     
-    "dataUrl": "data/text/05_TEItexts_nor.xml",
-    "sourcesUrl": "data/text/03_SourceDesc_nor2023.xml",
+    "dataUrl": "data/text/05_TEItexts_nor2023.xml",
+    "sourcesUrl": "data/text/03_SourceDesc_nor.xml",
     "analoguesUrl": "",
     "sourcesTextsUrl": "",
     "singleImagesUrl": "data/images/single/",
