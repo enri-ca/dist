@@ -315,11 +315,11 @@
       <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
          <rdf:RDF>
 		<!-- PLACES -->
-            <rdf:Description ref="#Athens" rdf:about="geonames:264371">
+            <rdf:Description tei:ref="#Athens" rdf:about="geonames:264371">
                <rdf:type rdf:resource="dbo:Place"/>
                <rdfs:label xml:lang="en">Greece - Athens</rdfs:label>
             </rdf:Description>
-            <rdf:Description ref="#Olympia" rdf:about="geonames:9293812">
+            <rdf:Description tei:ref="#Olympia" rdf:about="geonames:9293812">
                <rdf:type rdf:resource="dbo:Place"/>
                <rdfs:label xml:lang="en">Greece - Olympia</rdfs:label>
             </rdf:Description>
