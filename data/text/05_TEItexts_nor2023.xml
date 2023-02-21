@@ -312,7 +312,7 @@
          </projectDesc>
       </encodingDesc>
       <!--xenoData xi:include href="04_xenoData.xml"/-->
-      <xenoData>
+      <xenoData xmlns="">
          <rdf:RDF>
 		<!-- PLACES -->
             <rdf:Description tei:ref="#Athens" rdf:about="geonames:264371">
