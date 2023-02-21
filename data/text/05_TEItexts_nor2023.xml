@@ -311,7 +311,7 @@
          </projectDesc>
       </encodingDesc>
       <!--xenoData xi:include href="04_xenoData.xml"/-->
-      <xenoData xmlns="">
+      <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
          <rdf:RDF>
 		<!-- PLACES -->
             <rdf:Description tei:ref="#Athens" rdf:about="geonames:264371">
@@ -1063,7 +1063,7 @@
 		</body>
 	</text>
 
-	<text xml:id='sup1967_Toscana2_085_tx.jpg'>
+	<text xml:id='sup1967_Toscana2_085_tx'>
 		<body>
 			<pb xml:id='sup1967_Toscana2_085r' n='r'/>
 			<div type="recto">        
